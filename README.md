@@ -47,7 +47,6 @@ Looking at the scatter plot, we see a high correlation between budget and profit
 
 ![Scaterplot for unprofitable movies (budget/profit)](GitImages/scatter_profit_budget_revenue_NEGATIVE[2015].png)
 
-
 ### Box-Plot (Distributions)
 Looking at the box plot we see that genres such as Action, Comedy, Fantasy, Animation, and Adventure show a favorable success rate, as a majority tend to fall above the median profit.  However, this graph also shows that there is a lot of noise within the data, which may have affected our later risk analysis.  
 ![Boxplot For Profit Distributions Across Genres](GitImages/BoxPlot_genres_2010.png)
@@ -56,20 +55,17 @@ Looking at the box plot we see that genres such as Action, Comedy, Fantasy, Anim
 Here, we calculated a risk value for each genre by dividing the standard deviation of profits, over the mean profit.  What this does is allow us to calculate the probability that a movie will deviate from the mean of its genre.  Furthermore, a lower risk value is more favorable as it shows that the genre is less likely to deviate from its mean profit - being a safer pick. 
 ![Risk By Genre](GitImages/risk_by_genre.png)
 
-### Recommendations for Movies 
+### Final Look
+In this graph, we can see that Comedy, Action, Adventure, and Horror have low deviations in their mean budget price over time.  This tells us that these genres have been able to perform at a constant rate using a baseline budget.  
+![Budget Over time for recommended genres](GitImages/change_over_time_budget.png)
+
+## Conclusion 
 - Budget over $200,000,000: 
     - Action 
     - Adventure
 - Budget under $200,000,000: 
     - Comedy 
     - Horror
-
-### Final Look
-
-![Budget Over time for recommended genres](GitImages/change_over_time_budget.png)
-
-## Conclusion 
-
 
 ## Limitations
 - Data used contained movies from 1990-2017; more recent movies could have showed different results 
