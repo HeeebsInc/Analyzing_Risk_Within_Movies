@@ -56,6 +56,18 @@ Looking at the box plot we see that genres such as Action, Comedy, Fantasy, Anim
 Here, we calculated a risk value for each genre by dividing the standard deviation of profits, over the mean profit.  What this does is allow us to calculate the probability that a movie will deviate from the mean of its genre.  Furthermore, a lower risk value is more favorable as it shows that the genre is less likely to deviate from its mean profit - being a safer pick. 
 ![Risk By Genre](GitImages/risk_by_genre.png)
 
+### Recommendations for Movies 
+- Budget over $200,000,000: 
+    - Action 
+    - Adventure
+- Budget under $200,000,000: 
+    - Comedy 
+    - Horror
+
+### Final Look
+
+![Budget Over time for recommended genres](GitImages/change_over_time_budget.png)
+
 ## Conclusion 
 
 
