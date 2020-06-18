@@ -1,6 +1,6 @@
 # Analyzing Risk Within Movie Genres
 
-
+Contributors: [Samuel Mohebban](https://github.com/HeeebsInc) and [Michael Wang]
 ## Packages 
 
 ```python 
