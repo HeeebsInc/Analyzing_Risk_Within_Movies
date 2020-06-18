@@ -17,8 +17,13 @@ If a company is trying to enter the movie industry or create their first film, t
 ## Directory
 
 - data.zip --> Contains MovieLens and TMBD DataSets
-- UsedData --> Contains Clean Data Used For Plottig 
-- Technical Notebook --> Contains Plotting + Parsing Functions
+- UsedData--> Contains Clean Data Used For Plottig 
+    - [MovieLens](data/MovieLens/movies.csv)
+    - [TMBD](data/m_23/movies_metadata.csv)
+
+- Notebooks --> Contains Plotting + Parsing Functions 
+    - TechnicalNotebook.ipynb --> contains all main functions [Technical Notebook](Notebooks/TechnicalNotebook.ipynb)
+    
 
 ## Goals
 
