@@ -22,7 +22,8 @@ If a company is trying to enter the movie industry or create their first film, t
 - Understand the distribution within each genre and whether there is noise in our dataset
 
 ## Exploratory Analysis (Plots)
-### Profitable vs. Unprofitable Movies (3D Scatter Plot) [Functions](Notebooks/TechnicalNotebook.ipynb)
+### Profitable vs. Unprofitable Movies (3D Scatter Plot) 
+ [Functions](Notebooks/TechnicalNotebook.ipynb)
 ![Scatterplot for profitable movies (budget/profit)](GitImages/profit_budget_revenue_POSITIVE[2015].png)
 
 
