@@ -22,7 +22,7 @@ If a company is trying to enter the movie industry or create their first film, t
     - [TMBD](data/m_23/movies_metadata.csv)
 
 - Notebooks --> Contains Plotting + Parsing Functions 
-    - TechnicalNotebook.ipynb --> contains all main functions [Technical Notebook](Notebooks/TechnicalNotebook.ipynb)
+    - TechnicalNotebook.ipynb --> contains all main functions [path](TechnicalNotebook.ipynb)
     
 
 ## Goals
