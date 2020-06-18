@@ -16,6 +16,7 @@ If a company is trying to enter the movie industry or create their first film, t
 
 ## Goals
 
+
 - Use existing data from [MovieLens](https://grouplens.org/datasets/movielens/) and [TMBD](https://www.kaggle.com/juzershakir/tmdb-movies-dataset) to determine if there is a difference in risk between genres
     - **Risk** is defined as the standard deviation divided by the mean
 - Determine correlations between profit and budget within each genre
@@ -23,15 +24,14 @@ If a company is trying to enter the movie industry or create their first film, t
 
 ## Exploratory Analysis (Plots)
 ### Profitable vs. Unprofitable Movies (3D Scatter Plot) 
- [Functions](Notebooks/TechnicalNotebook.ipynb)
-![Scatterplot for profitable movies (budget/profi)]
+[Functions] (Notebooks/TechnicalNotebook.ipynb)
+
+![Scatterplot for profitable movies (budget/profit)](GitImages/scatter_profit_budget_revenue_POSITIVE[2015].png)
 
 
 
 
 
 
-
-
-![Scaterplot for unprofitable movies (budget/profit)
+![Scaterplot for unprofitable movies (budget/profit)](GitImages/scatter_profit_budget_revenue_NEGATIVE[2015].png)
 
