@@ -35,5 +35,5 @@ If a company is trying to enter the movie industry or create their first film, t
 
 ![Scaterplot for unprofitable movies (budget/profit)](GitImages/scatter_profit_budget_revenue_NEGATIVE[2015].png)
 
-! [Boxplot For Profit Distributions Across Genres](GitImages/BoxPlot_genres_2010.png)
+![Boxplot For Profit Distributions Across Genres](GitImages/BoxPlot_genres_2010.png)
 
