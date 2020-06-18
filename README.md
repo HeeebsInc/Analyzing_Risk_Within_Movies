@@ -16,10 +16,9 @@ If a company is trying to enter the movie industry or create their first film, t
 
 ## Directory
 
-```bash
-data.zip 
-UsedData/
-Notebooks/```
+- data.zip --> Contains MovieLens and TMBD DataSets
+- UsedData --> Contains Clean Data Used For Plottig 
+- Technical Notebook --> Contains Plotting + Parsing Functions
 
 ## Goals
 
@@ -33,16 +32,35 @@ Notebooks/```
 ### Profitable vs. Unprofitable Movies (3D Scatter Plot) 
 [Functions](Notebooks/TechnicalNotebook.ipynb)
 
+Looking at the scatter plot, we see a high correlation between budget and profit; which was expected. As a movie spends more money on production, they overall profit will also increase.  However, looking at the correlations alone do not tell us the distribution between genres, and whether there is any noise. 
+
 ![Scatterplot for profitable movies (budget/profit)](GitImages/scatter_profit_budget_revenue_POSITIVE[2015].png)
 
+**Strong Correlation**                 
+- Adventure                         
+- Thriller 
+- Crime 
 
-
-
-
+**Moderate Correlation**                           
+- Drama 
+- Fantsay
 
 ![Scaterplot for unprofitable movies (budget/profit)](GitImages/scatter_profit_budget_revenue_NEGATIVE[2015].png)
 
+
+### Box-Plot (Distributions)
+Looking at the box plot we see that genres such as Action, Comedy, Fantasy, Animation, and Adventure show a favorable success rate, as a majority tend to fall above the median profit.  However, this graph also shows that there is a lot of noise within the data, which may have affected our later risk analysis.  
 ![Boxplot For Profit Distributions Across Genres](GitImages/BoxPlot_genres_2010.png)
 
+### Risk Analysis By Genre
+Here, we calculated a risk value for each genre by dividing the standard deviation of profits, over the mean profit.  What this does is allow us to calculate the probability that a movie will deviate from the mean of its genre.  Furthermore, a lower risk value is more favorable as it shows that the genre is less likely to deviate from its mean profit - being a safer pick. 
 ![Risk By Genre](GitImages/risk_by_genre.png)
+
+## Conclusion 
+
+
+## Limitations
+- Data used contained movies from 1990-2017; more recent movies could have showed different results 
+- Many movies have unknown budgets, so they were ignored
+- Movies within certain categories like romance and indie have skewed standard deviations due to extreme outliers in each.  
 
