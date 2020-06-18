@@ -14,6 +14,13 @@ import numpy as np
 If a company is trying to enter the movie industry or create their first film, they must consider budget.  Considering movies do not have unlimited budget, you can approach this problem using a risk analaysis for each Genre.  
 [Google Slide Presentation](https://docs.google.com/presentation/d/17Ba26seyYSHHLWh5TLBRsJbAz1YpsoQI2lYNyWAq4Ok/edit?usp=sharing)
 
+## Directory
+
+```bash
+data.zip 
+UsedData/
+Notebooks/```
+
 ## Goals
 
 
