@@ -24,7 +24,7 @@ If a company is trying to enter the movie industry or create their first film, t
 ## Exploratory Analysis (Plots)
 ### Profitable vs. Unprofitable Movies (3D Scatter Plot) 
  [Functions](Notebooks/TechnicalNotebook.ipynb)
-![Scatterplot for profitable movies (budget/profit)](GitImages/profit_budget_revenue_POSITIVE[2015].png)
+![Scatterplot for profitable movies (budget/profi)]
 
 
 
@@ -33,5 +33,5 @@ If a company is trying to enter the movie industry or create their first film, t
 
 
 
-![Scaterplot for unprofitable movies (budget/profit)](GitImages/profit_budget_revenue_NEGATIVE[2015].png)
+![Scaterplot for unprofitable movies (budget/profit)
 
