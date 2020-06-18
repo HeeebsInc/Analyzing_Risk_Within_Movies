@@ -1,6 +1,6 @@
 # Analyzing Risk Within Movie Genres
 
-Contributors: [Samuel Mohebban](https://github.com/HeeebsInc) and [Michael Wang]
+Contributors: [Samuel Mohebban](https://github.com/HeeebsInc) and [Michael Wang](https://github.com/mwang822)
 ## Packages 
 
 ```python 
@@ -64,13 +64,15 @@ Here, we calculated a risk value for each genre by dividing the standard deviati
 In this graph, we can see that Comedy, Action, Adventure, and Horror have low deviations in their mean budget price over time.  This tells us that these genres have been able to perform at a constant rate using a baseline budget.  
 ![Budget Over time for recommended genres](GitImages/change_over_time_budget.png)
 
-## Conclusion 
-- Budget over $200,000,000: 
-    - Action 
-    - Adventure
-- Budget under $200,000,000: 
-    - Comedy 
-    - Horror
+## Conclusion (buy-in metrics are our minimum suggested production budgets for the genre) (% is the empirical success rate of ROI>0 for our dataset)
+- For production budgets over $200,000,000 we suggest: 
+    - Fantasy (~175m buy-in) (86.4% success rate)
+    - Adventure (~197m buy-in) (82.76% success rate)
+- For production budgetary constraints at or under $200,000,000 we reccomend investing in: 
+    - Horror (~$40m buy-in)  (75.75% success rate)
+    - Animation (~$150m buy-in)  (86.58% success rate)
+    - Comedy (~150m buy-in)  (78.28% success rate)
+
 
 ## Limitations
 - Data used contained movies from 1990-2017; more recent movies could have showed different results 
