@@ -37,3 +37,5 @@ If a company is trying to enter the movie industry or create their first film, t
 
 ![Boxplot For Profit Distributions Across Genres](GitImages/BoxPlot_genres_2010.png)
 
+![Risk By Genre](GitImages/risk_by_genre.png)
+
