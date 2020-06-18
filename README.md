@@ -62,5 +62,5 @@ Here, we calculated a risk value for each genre by dividing the standard deviati
 ## Limitations
 - Data used contained movies from 1990-2017; more recent movies could have showed different results 
 - Many movies have unknown budgets, so they were ignored
-- Movies within certain categories like romance and indie have skewed standard deviations due to extreme outliers in each.  
+- Within every popular movie genre, there are extreme outliers that may have contributed to exaggerated standard deviations.  
 
