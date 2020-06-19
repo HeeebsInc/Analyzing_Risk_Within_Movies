@@ -17,7 +17,7 @@ If a company is trying to enter the movie industry or create their first film, t
 ## Directory
 
 - data.zip --> Contains MovieLens and TMBD DataSets
-- UsedData--> Contains Clean Data Used For Plottig 
+- UsedData--> Contains Clean Data Used For Plotting
     - [MovieLens](data/MovieLens/movies.csv)
     - [TMBD](data/m_23/movies_metadata.csv)
 
