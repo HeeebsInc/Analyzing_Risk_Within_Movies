@@ -61,7 +61,7 @@ Here, we calculated a risk value for each genre by dividing the standard deviati
 ![Risk By Genre](GitImages/risk_by_genre.png)
 
 ### Final Look
-In this graph, we can see that Comedy, Action, Adventure, and Horror have low deviations in their mean budget price over time.  This tells us that these genres have been able to perform at a constant rate using a baseline budget.  
+In this graph, we can see that Comedy, Fantasy, Adventure, and Horror have low deviations in their mean budget price over time.  This tells us that these genres have been able to perform at a constant rate using a baseline budget.  
 ![Budget Over time for recommended genres](GitImages/change_over_time_budget.png)
 
 ## Conclusion 
