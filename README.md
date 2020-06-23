@@ -12,11 +12,13 @@ import numpy as np
 ```
 
 If a company is trying to enter the movie industry or create their first film, they must consider budget.  Considering movies do not have unlimited budget, you can approach this problem using a risk analaysis for each Genre.  
-[Google Slide Presentation](https://docs.google.com/presentation/d/17Ba26seyYSHHLWh5TLBRsJbAz1YpsoQI2lYNyWAq4Ok/edit?usp=sharing)
+[Presentation](Too_Big_to_Fail.pdf)
+
+
 
 ## Directory
 
-- data.zip --> Contains MovieLens and TMBD DataSets
+- [data.zip](data.zip) --> Contains MovieLens and TMBD DataSets
 - UsedData--> Contains Clean Data Used For Plotting
     - [MovieLens](data/MovieLens/movies.csv)
     - [TMBD](data/m_23/movies_metadata.csv)
